@@ -1,0 +1,34 @@
+/*=========Tag Headers==========*/
+body {
+    margin: 0;
+}
+
+div {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 1em;
+    display: inline-block;
+}
+
+
+/*=========Class Headers==========*/
+.page-header {
+    width: 100vw;
+    height: 100px;
+    background-color: maroon;
+    position: fixed;
+    align-items: center;
+    justify-content: right;
+    color: rgb(0, 0, 0);
+}
+
+.sub-header {
+    height: 100%;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin: 0;
+}

@@ -1,0 +1,125 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-weight: 800;
+}
+
+h3,
+h4 {
+    font-weight: 400;
+}
+
+img {
+    height: 80%;
+    width: 80%;
+    display: inline-block;
+    border-radius: 1%;
+}
+
+/* Slides */
+.container-carousel {
+    background-color: rgb(248, 248, 248);
+    margin: 5%;
+    padding: 20px;
+    
+}
+
+.slide {
+    /* display: none; */
+    margin: 0;
+    text-align: center;
+
+}
+
+.container {
+    margin: 0px;
+    padding: 0;
+}
+
+.text-block {
+    display: inline-block;
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    bottom: 4rem;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: static;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: grey;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    border-radius: 3px 0;
+    line-height: 50px;
+    margin: 2%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(214, 214, 214, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 10px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* ANIMATIONS */
+/* Fade-in */
+.fade-in { animation: fade-in 2.5s ease; }
+
+/* Class for absolute positioning while sliding out */
+.sliding-out {
+    position: absolute;
+    top: 18.5%;
+    right: 50%;
+    margin-right: -50%;
+}
+
+/* Slide-in & Slide-out*/
+@keyframes slide-in-left { 0%{ transform: translateX(-150%); } }
+.slide-in-left { animation: slide-in-left 1s ease; }
+@keyframes slide-in-right { 0%{ transform: translateX(150%); } }
+.slide-in-right { animation: slide-in-right 1s ease; }
+@keyframes slide-out-left { 100%{ transform: translateX(-150%); } }
+.slide-out-left { animation: slide-out-left 1s ease; }
+@keyframes slide-out-right { 100%{ transform: translateX(150%); } }
+.slide-out-right { animation: slide-out-right 1s ease; }
+
+@keyframes fade-in {
+    0%{ opacity: 0; }
+    100%{ opacity: 1 }
+}

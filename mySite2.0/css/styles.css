@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', serif;
+    color: rgb(37, 76, 121);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;   
+    position: relative;
+    bottom:50px;
+    color: #66BFBf;
+    font-size: 2.5rem;
+    line-height: 2;
+}
+
+h2 {
+    color: #66BFBf;
+}
+
+h3 {
+    color: 11999E;
+}
+
+a {
+    color: #66BFBf;
+    text-decoration: none;
+    width: 200px;
+}
+
+ 
+
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: -65px;
+    font-size: 14px;
+    color: #66BFBf;
+    font-weight: lighter;
+  
+}
+
+hr {
+    border-width: 4px;
+    border-style: dotted;
+    border-bottom: none;
+    height: 0px;
+    border-color: rgb(100, 153, 185);
+    width: 20px;
+}
+
+/*=========Class Selectors========*/
+.top-container {    
+    height: 100vh;
+    background-image: linear-gradient(rgb(92, 101, 141), rgb(38, 45, 75));
+}
+
+.middle-container {
+    padding: 50px;
+}
+
+.contact-button {
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0px -2px rgb(200, 208, 214);
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto 0 auto;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-img2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+.cloud1 {
+    display: inline-block;
+    height: 15vw;
+    position: relative;
+    left: 30vw;
+    top: 30px;
+    
+}
+
+.cloud2 {
+    position: relative;
+    height: 18vw;
+    right: 20vw;
+    bottom: 10vh;
+}
+
+.mountain {
+    display: block;
+    height: 60vh;
+    position: absolute;
+
+    bottom: -4px;
+    right: 20vw;
+    
+    
+}
